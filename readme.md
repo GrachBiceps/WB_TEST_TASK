@@ -1,5 +1,7 @@
 API
 
+путь POST http://localhost:3000/main/getItemQty
+
 Для отправки запроса нужно ввести массив артикулов в таком виде:
 
     "articleArr": [
