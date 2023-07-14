@@ -13,7 +13,7 @@ const findQtyWithStore = async (fetchData) => {
                 if(product.sizes[i].stocks[j].wh == 117986){
                     
                     StockArr.push({
-                        [product.sizes[i].name]: product.sizes[i].stocks[j].qty
+                        [product.sizes[i].name] : product.sizes[i].stocks[j].qty
                     })
                 }
             }
@@ -26,7 +26,7 @@ const findQtyWithStore = async (fetchData) => {
             StockArr
         })
     
-    return returnArr
+    return returnArr[0]
 }
 
 class mainController{
